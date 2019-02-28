@@ -1,0 +1,23 @@
+{
+  "name": "docbot",
+  "version": "1.0.0",
+  "description": "Documentation in your hand, at your time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "discord.js",
+    "i18next"
+  ],
+  "author": "BlueSlimee",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "@types/i18next": "^12.1.0",
+    "@types/node-fetch": "^2.1.6",
+    "discord.js": "^11.4.2",
+    "i18next": "^15.0.4",
+    "node-fetch": "^2.3.0"
+  }
+}
