@@ -8,12 +8,15 @@ Lotte
 A licença do projeto é a GNU General Public License V3.
 
 📦 **Dependências**
-Dependência | Repositório
------------ | -----------
-eris | [abalabahaha/eris](https://github.com/abalabahaha/eris)
-chariot.js | [riyacchi/chariot.js](https://github.com/riyacchi/chariot.js)
-puppeteer | [GoogleChrome/puppeteer](https://github.com/GoogleChrome/puppeteer)
-standard | [standard/standard](https://github.com/standard/standard)
-lyricist | [scf4/lyricist](https://github.com/sctf4/lyricist)
-genius-api | [jahrlin/genius-api](https://github.com/jahrlin/genius-api)
-mdn-search-docs | [Fazendaaa/MDNSearch](https://github.com/Fazendaaa/MDNSearch)
+
+-----------------------------------------------------------------------------------------
+| Dependência     | Repositório                                                         |
+| :-------------: | :-----------------------------------------------------------------: |
+| eris            | [abalabahaha/eris](https://github.com/abalabahaha/eris)             |
+| chariot.js      | [riyacchi/chariot.js](https://github.com/riyacchi/chariot.js)       |
+| puppeteer       | [GoogleChrome/puppeteer](https://github.com/GoogleChrome/puppeteer) |
+| standard        | [standard/standard](https://github.com/standard/standard)           |
+| lyricist        | [scf4/lyricist](https://github.com/sctf4/lyricist)                  |
+| genius-api      | [jahrlin/genius-api](https://github.com/jahrlin/genius-api)         |
+| mdn-search-docs | [Fazendaaa/MDNSearch](https://github.com/Fazendaaa/MDNSearch)       |
+-----------------------------------------------------------------------------------------
