@@ -11,7 +11,7 @@ A licença do projeto é a GNU General Public License V3.
 
 -----------------------------------------------------------------------------------------
 | Dependência     | Repositório                                                         |
-| :-------------: | :-----------------------------------------------------------------: |
+|:---------------:|:-------------------------------------------------------------------:|
 | eris            | [abalabahaha/eris](https://github.com/abalabahaha/eris)             |
 | chariot.js      | [riyacchi/chariot.js](https://github.com/riyacchi/chariot.js)       |
 | puppeteer       | [GoogleChrome/puppeteer](https://github.com/GoogleChrome/puppeteer) |
@@ -19,4 +19,3 @@ A licença do projeto é a GNU General Public License V3.
 | lyricist        | [scf4/lyricist](https://github.com/sctf4/lyricist)                  |
 | genius-api      | [jahrlin/genius-api](https://github.com/jahrlin/genius-api)         |
 | mdn-search-docs | [Fazendaaa/MDNSearch](https://github.com/Fazendaaa/MDNSearch)       |
------------------------------------------------------------------------------------------
