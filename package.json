@@ -16,7 +16,7 @@
     "standard": "^12.0.1",
     "eris": "^0.9.0",
     "chariot.js": "^1.2.0",
-    "jest": "^23.6.0"
+    "jest": "^24.3.0"
   },
   "engines": {
     "node": "11.x"
