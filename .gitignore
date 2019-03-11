@@ -1,4 +1,6 @@
 .glitch-assets
 .env
 node_modules/
-.shrink-wrap.yaml
+.standard-v12-cache/
+.pki/
+.shrinkwrap.yaml
