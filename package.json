@@ -1,23 +1,27 @@
 {
-  "name": "docbot",
+  "name": "lotte",
   "version": "1.0.0",
-  "description": "Documentation in your hand, at your time",
+  "description": "Um simples bot, usando o chariot.js!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "standard --fix && node index"
   },
-  "keywords": [
-    "typescript",
-    "discord.js",
-    "i18next"
-  ],
-  "author": "BlueSlimee",
-  "license": "AGPL-3.0-or-later",
   "dependencies": {
-    "@types/i18next": "^12.1.0",
-    "@types/node-fetch": "^2.1.6",
-    "discord.js": "^11.4.2",
-    "i18next": "^15.0.4",
-    "node-fetch": "^2.3.0"
-  }
+    "mdn-search-docs": "^1.0.0",
+    "puppeteer": "^1.13.0",
+    "lyricist": "^2.2.2",
+    "genius-api": "^0.4.1",
+    "standard": "^12.0.1",
+    "eris": "^0.9.0",
+    "chariot.js": "^1.2.0"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "license": "GPL-3.0",
+  "keywords": [
+    "eris",
+    "node.js",
+    "chariot.js"
+  ]
 }
