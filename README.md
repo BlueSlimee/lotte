@@ -2,6 +2,7 @@
 
 Lotte
 ================
+[![CodeFactor](https://www.codefactor.io/repository/github/blueslimee/lotte/badge)](https://www.codefactor.io/repository/github/blueslimee/lotte)
 
 📃 **Licença**
 
