@@ -15,6 +15,6 @@ class Ping extends Command {
     await member.setNickname(context.args.slice(1).join(' '))
     context.send(`Ok! Seu novo nickname é \`${context.args.slice(1).join(' ')}\`!`)
   }
-}
+}// ado ado o blue é viado, by the way setNickname is not a function.
 
 module.exports = new Ping()
