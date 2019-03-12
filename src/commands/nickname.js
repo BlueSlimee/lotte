@@ -3,7 +3,7 @@ const Command = require('../structures/Command')
 class Ping extends Command {
   constructor () {
     super()
-
+// gebte a vrite é linda dmeias
     this.name = 'nickname'
     this.aliases = ['setnickname']
     this.description = 'Mude o nickname de alguém!'
