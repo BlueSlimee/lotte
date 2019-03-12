@@ -1,8 +1,12 @@
-![Lotte](https://cdn.glitch.com/a326e298-d98c-403a-810b-5aecdbf023bc%2Flotte.png?1552361168941)
+![Lotte](https://png2.kisspng.com/dy/ef77f56f91cac9edbcfb55908fbc0c2d/L0KzQYm3VsI4N6h3R91yc4Pzfri0jP91fJYykdN3c4Pyfn7rifFvaV5oeehubnTsg7m0kCVkgV5yedDrYYbkgrL1TgNpcZ8yhNt9dHzoPcjwlPNpNZJoedZubXnkPYbpU8M2P2loe9hvN0i3PoiAUME0QWo6Sac8MEC8QYW3VMg2OWkziNDw/kisspng-lotte-yansson-diana-cavendish-sucy-manbavaran-shin-little-witch-academia-5b33578ccff784.7701399515300914048518.png#)
 
 Lotte
 ================
 [![CodeFactor](https://www.codefactor.io/repository/github/blueslimee/lotte/badge)](https://www.codefactor.io/repository/github/blueslimee/lotte)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/BlueSlimee/lotte.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/BlueSlimee/lotte/context:javascript)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/BlueSlimee/lotte.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/BlueSlimee/lotte/alerts/)
+![Dependências](https://david-dm.org/BlueSlimee/lotte.svg)
+[![Codeship Status for BlueSlimee/lotte](https://app.codeship.com/projects/318dc4f0-2667-0137-cb79-62301def1038/status?branch=master)](https://app.codeship.com/projects/330383)
 
 📃 **Licença**
 
