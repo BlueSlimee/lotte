@@ -28,13 +28,16 @@ class Lyrics extends Command {
       let lyrics = await lyricist.song(response.hits[0].result.id, { fetchLyrics: true })
       if (!lyrics) context.send('Música não encontrada...')
 
+      let primaryArtist = lyrics.primary_artist.name
+      let otherArtists = (lyrics.producer_artists || []).map(a => a.name)
+
       let embed = new RichEmbed()
         .setTitle('Ver letra em genius.com')
-        .setDescription(`Exibindo letra de \`${lyrics.title}\`, por \`${lyrics.album.artist.name}\`, do álbum \`${lyrics.album.name}\``)
-        .setThumbnail(lyrics.album.cover_art_url)
+        .setDescription(`Exibindo letra de \`${lyrics.title}\`, por \`${primaryArtist} ${otherArtists.length === 0 ? '' : '(Produtores: ' + otherArtists.join(', ') + ')'}\`${lyrics.album ? 'do álbum `' + lyrics.album.name + '`' : ' (single)'}`)
+        .setThumbnail(lyrics.song_art_image_url)
         .setColor(0xe8f442)
         .setUrl(lyrics.url)
-        .setFooter(lyrics.album.artist.name, lyrics.primary_artist.image_url)
+        .setFooter(primaryArtist, lyrics.primary_artist.image_url)
 
       await context.send(embed)
 

@@ -20,7 +20,7 @@ class MDN extends Command {
       .setColor(0x00ffff)
       .setFooter('Mozilla Developer Network', 'http://www.stickpng.com/assets/images/58480eb3cef1014c0b5e492a.png')
       .setUrl(results.documents[0].url)
-      .setDescription(`${results.documents[0].excerpt.replace(/<\/?[^>]+(>|$)/g, '')}\nRelacionados: \`${results.documents.slice(1).map(b => b.title).join(', ')}\``))
+      .setDescription(`${results.documents[0].excerpt.replace(/<\/?[^>]+(>|$)/g, '')}\n\nRelacionados: \`${results.documents.slice(1).map(b => b.title).join(', ')}\``))
   }
 }
 
