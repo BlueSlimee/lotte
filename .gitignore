@@ -3,4 +3,5 @@
 node_modules/
 .standard-v12-cache/
 .pki/
+dev/
 shrinkwrap.yaml
