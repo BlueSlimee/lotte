@@ -10,10 +10,9 @@ class Ping extends Command {
     this.category = 'misc'
   }
 
-  run (context) {
-    context.send('Calculando...').then((m) => {
-      m.edit({ content: `Pong! ${Math.round(Date.now() - m.timestamp)}ms` })
-    })
+  async run (context) {
+   let m = await context.send('Calculando...')
+   m.edit({ content: `Pong! ${Math.round(Date.now() - m.timestamp)}ms` })
   }
 }
 
